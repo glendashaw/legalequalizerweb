@@ -10653,6 +10653,7 @@ section.cta .btn:hover {
 @media screen and (max-width: 767px) {
 	.android {
 	padding-top: 100px;
+	text-align: center;
 	}
 }
 
