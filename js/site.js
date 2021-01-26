@@ -160,6 +160,15 @@ $(function(){
     });
 
 
+    /**
+     *  CLOSE NAV AFTER SELECT ICON - On Mobiles
+     **/
+    $(".nav-icon").on("click", function() {
+        $(".st-nav .st-nav-section.st-nav-mobile")[0].classList.remove("st-popup-active")
+    });
+
+
+
     /*------------------------------------
     Magnific Popup
 -------------------------------------- */
