@@ -1,289 +1,234 @@
-<!DOCTYPE html>
-<html>
-   <head>
-      <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
-      <meta charset='utf-8'>
-      <meta content='IE=edge' http-equiv='X-UA-Compatible'>
-      <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
-      <meta content='PestReminders' name='author'>
-      <meta content='PestReminders' name='description'>
-      <title>Legal Equalizer: Legal Rights App for Law Enforcement Encounters</title>
-      <meta name="csrf-param" content="authenticity_token" />
-      <meta name="csrf-token" content="KylQG3aUUpKRusbiFs6Bsr3N6W2LWeSUl/W8kJElEbXHWQizEAbP7mc0D8/yeaAk5BikZaq8B/r4mtf+n6cArQ==" />
-      <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-3862d334ff0739ce87ea7eb15737df72c01011e69cd4ede3d5db1a2116a01684.png" />
-      <link rel="stylesheet" media="all" href="css/style.css" />
-      <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css"> <!--load all styles -->
-      <link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-      <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-   </head>
-   <body>
-      <!-- <div class='preloader'>
-         <div class='spinner'>
-            <div class='bounce1'></div>
-            <div class='bounce2'></div>
-            <div class='bounce3'></div>
-         </div>
-      </div> -->
-      <!-- NAVBAR -->
-      <div class='navbar-wrapper cbp-af-header'>
-         <div class='container'>
-            <div class='navbar cbp-af-inner' role='navigation'>
-               <div class='container'>
-                  <div class='navbar-header'>
-                     <button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
-                     <span class='sr-only'>Toggle navigation</span>
-                     <span class='icon-bar'></span>
-                     <span class='icon-bar'></span>
-                     <span class='icon-bar'></span>
-                     </button>
-                     <h1 class='logo'>
-                        <a class='navbar-brand scroll' href='/'>
-                        <img src='img/official.png'>
-                        </a>
-                     </h1>
-                  </div>
-                  <div class='navbar-collapse collapse'>
-                     <ul class='nav navbar-nav pull-right'>
-                        <li>
-                           <a class='login' href='#how_it_work'>Features</a>
-                        </li>
-                        <li>
-                           <a class='login' href='#cta'>Download</a>
-                        </li>
-                        <li>
-                           <a class='login' href='donate.html'>Donate</a>
-                        </li>
-                        <li>
-                           <a class='login' href="mailto:mbye@legalequalizer.com">Contact Us</a>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" href="logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <title>Legal Equalizer - Get legal assistance anywhere, anytime.</title><!-- themeforest:css -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/cookieconsent.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/odometer-theme-minimal.css">
+    <link rel="stylesheet" href="css/prism-okaidia.css">
+    <link rel="stylesheet" href="css/simplebar.css">
+    <link rel="stylesheet" href="css/smart_wizard.css">
+    <link rel="stylesheet" href="css/smart_wizard_theme_arrows.css">
+    <link rel="stylesheet" href="css/smart_wizard_theme_circles.css">
+    <link rel="stylesheet" href="css/smart_wizard_theme_dots.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/rtl.css"><!-- endinject -->
+</head>
+
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader preloader-dark">
+    <div data-loader="dual-ring"></div>
+  </div>
+  <!-- Preloader End -->
+    <!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+    <!-- Making stripe menu -->
+    <nav class="st-nav navbar main-nav navigation fixed-top" id="main-nav">
+        <div class="container">
+            <ul class="st-nav-menu nav navbar-nav">
+                <li class="st-nav-section nav-item"><a href="#main" class="navbar-brand"><img src="img/logo.png" alt="Dashcore" class="logo logo-sticky d-block d-md-none"> <img src="img/logo-light.png" alt="Dashcore" class="logo d-none d-md-block"></a></li>
+                <li class="st-nav-section st-nav-primary nav-item"><a class="st-root-link nav-link" href="https://apps.apple.com/us/app/tattoo-requests/id1529783837" target="_blank">Download App</a><a class="st-root-link nav-link smooth-scroll" href="#features" >How It Works</a><a class="st-root-link nav-link smooth-scroll" href="#testimonials">Testimonials</a><a class="st-root-link nav-link" href="mailto:info@legalequalizer.com?Subject=Contact%20Us" target="_blank">Partners</a><a class="st-root-link nav-link" href="mailto:info@legalequalizer.com?Subject=Contact%20Us">Donate</a><a class="st-root-link nav-link" href="mailto:info@legalequalizer.com?Subject=Contact%20Us" target="_blank">Contact Us</a></li>
+                <!-- Mobile Navigation -->
+                <li class="st-nav-section st-nav-mobile nav-item"><button class="st-root-link navbar-toggler" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+                    <div class="st-popup">
+                        <div class="st-popup-container"><a class="st-popup-close-button">Close</a>
+                            <div class="st-dropdown-content-group">
+                                <a class="regular smooth-scroll" href="#features"><i class="fas fa-info mr-2"></i>How It Works</a><a class="regular smooth-scroll" href="#testimonials"><i class="fas fa-quote-right mr-2"></i> Testimonials </a><a class="regular" href="mailto:info@legalequalizer.com?Subject=Contact%20Us"><i class="far fa-handshake mr-2"></i> Partners</a><a class="regular" href="mailto:info@legalequalizer.com?Subject=Contact%20Us"><i class="fas fa-donate mr-2"></i> Donate</a><a class="regular" href="mailto:info@legalequalizer.com?Subject=Contact%20Us"><i class="far fa-envelope mr-2"></i>Contact Us</a>
+                            </div>
+                            <div class="st-dropdown-content-group b-t"><a href="login.html">Download App <i class="fas fa-mobile-alt"></i></a></div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="st-dropdown-root">
+            <div class="st-dropdown-bg">
+                <div class="st-alt-bg"></div>
             </div>
-         </div>
-      </div>
-      <!-- Hero Banner -->
-      <div id='intro'>
-         <div class='item background-cover'>
-            <div class='container'>
-               <div class='row'>
-                <div class="col-12 col-md-6 col-lg-7">
-
-
-                  <div class='carousel-caption-center colour-white'>
-                      <h1>
-                        <strong>Get legal assistance in real time.<br>We help you <span class="typer" id="main" data-words="know your rights., record encounters., connect with attorneys." data-colors="white" data-delay="100" data-deleteDelay="1000"></span></strong><span class="cursor" data-owner="main"></span></br>
-                     </h1>
-
-                        <a class='btn btn-lg btn-success signup' href='https://apps.apple.com/us/app/legal-equalizer/id1255955244' role='button'>Download IOS <i class='fa fa-apple'></i></a>
-                        <a class='btn btn-lg btn-success' href='https://play.google.com/store/apps/details?id=com.legalequalizer.legalequalizer&hl=en_US' role='button'>Download Android <i class='fa fa-android'></i></a>
-                  </div>
+            <div class="st-dropdown-arrow"></div>
+            <div class="st-dropdown-container">
+                <div class="st-dropdown-section" data-dropdown="blocks">
+                    <div class="st-dropdown-content">
+                        <div class="st-dropdown-content-group">
+                            <div class="row">
+                                <div class="col mr-4"><a class="dropdown-item" target="_blank" href="blocks/call-to-action.html">Call to actions</a> <a class="dropdown-item" target="_blank" href="blocks/contact.html">Contact</a> <a class="dropdown-item" target="_blank" href="blocks/counter.html">Counters</a> <a class="dropdown-item" target="_blank" href="blocks/faqs.html">FAQs</a></div>
+                                <div class="col mr-4"><a class="dropdown-item" target="_blank" href="blocks/footer.html">Footers</a> <a class="dropdown-item" target="_blank" href="blocks/form.html">Forms</a> <a class="dropdown-item" target="_blank" href="blocks/navbar.html">Navbar</a> <a class="dropdown-item" target="_blank" href="blocks/navigation.html">Navigation</a></div>
+                                <div class="col"><a class="dropdown-item" target="_blank" href="blocks/pricing.html">Pricing</a> <a class="dropdown-item" target="_blank" href="blocks/slider.html">Sliders</a> <a class="dropdown-item" target="_blank" href="blocks/team.html">Team</a> <a class="dropdown-item" target="_blank" href="blocks/testimonial.html">Testimonials</a></div>
+                            </div>
+                        </div>
+                        <div class="st-dropdown-content-group">
+                            <h3 class="link-title"><i class="fas fa-long-arrow-alt-right icon"></i> Coming soon</h3>
+                            <div class="ml-5"><span class="dropdown-item text-secondary">Dividers </span><span class="dropdown-item text-secondary">Gallery </span><span class="dropdown-item text-secondary">Screenshots</span></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-5">
-                     <div class="phone-twin align-items-center mt-4 mt-d-0">
-                        <div class="mockup absolute right" data-aos="fade-right">
-                           <div class="phone-2">
-                              <div class="screen"><img src="img/androidimage.png" alt="..."></div>
-                               <span class="button-2"></span>
-                           </div>
-                        </div>
-                        <div class="phone front ml-0">
-                           <div class="screen shadow-box"><img src="img/IMG_0007.PNG" alt="..."></div>
-                           <span class="button"></span>
-                        </div>
-                     </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- ./App Landing - page header -->
+        <header class="section header text-contrast app-landing-header">
+            <div class="shape-wrapper" style="background-color: #2c377b;">
+                <div class="shape shape-background shape-main"></div>
+                <div class="shape shape-background shape-top"></div>
+            </div>
+            <div class="container overflow-hidden">
+                <div class="row gap-y align-items-center">
+                    <div class="col-md-6 col-lg-6">
+                        <p class="lead d-flex align-items-center my-0"></p>
+                        <h2 class="bold text-contrast display-lg-2 font-lg mb-3">Get legal assistance anywhere, anytime.</h2>
+                        <p class="lead">Legal Equalizer provides you access to the tools you need to protect yourself and loved ones during law enforcement encounters.</p>
+                          <nav class="nav mt-5"><a href="https://apps.apple.com/us/app/legal-equalizer/id1255955244" target="_blank" class="nav-link mr-3 btn-lg btn-info btn btn btn-contrast">Download iOS <i class="fab fa-apple"></i></a><a href="https://play.google.com/store/apps/details?id=com.julytwentysix.legalequalizer&hl=en_US&gl=US" target="_blank"class="nav-link btn-lg btn-info btn-success btn-contrast">Download Android <i class="fab fa-android"></i></a></nav>
+                    </div>
+                    <div class="col-md-6 col-lg-5 ml-lg-auto">
+                      <div class="device-twin align-items-center">
+                          <div class="mockup absolute" data-aos="fade-left">
+                              <div class="screen"><img src="img/screens/app/1.jpeg" alt="..."></div><span class="button"></span>
+                          </div>
+                          <div class="iphone-x front mr-0">
+                              <div class="screen shadow-box"><img src="img/screens/app/2.jpeg" alt="..."></div>
+                              <div class="notch"></div>
+                          </div>
+                      </div>
+                        <!-- <div data-aos="fade-left">
+                            <div class="mobile-device iphone-x">
+                                <div class="screen"><img src="img/screens/app/2.png" class="img-responsive" alt=""></div>
+                                <div class="notch"></div>
+                            </div>
+                            <div class="absolute screen-highlight center-x w-100"><img src="img/screens/app/2-highlight.png" alt="" class="mx-auto shadow-lg rounded img-responsive" data-aos-delay="1000" data-aos="zoom-in"></div>
+                        </div> -->
+                    </div>
                 </div>
-               </div>
             </div>
-            <div class='overlay-bg'></div>
-         </div>
-      </div>
-      <!-- About Section -->
-      <section class='content text-center light' id='how_it_work'>
-         <div class='container'>
-            <!-- Three columns of text below the carousel -->
-            <div class='row' id='how_it_work'>
-               <div class='col-lg-12 overlay-text'>
-                  <h2>Features</h2>
-               </div>
+        </header><!-- ./Partners -->
+        <section class="partners">
+            <div class="container py-5 b-b">
+                <div class="swiper-container" data-sw-show-items="5" data-sw-space-between="30" data-sw-autoplay="2500" data-sw-loop="true">
+                    <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-slide"><img src="img/logos/techstars.png" class="img-responsive" alt="" style="max-height: 80px"></div>
+                        <div class="swiper-slide"><img src="img/logos/new_york.png" class="img-responsive" alt="" style="max-height: 80px"></div>
+                        <div class="swiper-slide"><img src="img/logos/oz.png" class="img-responsive" alt="" style="max-height: 50px; margin-left:15px;"></div>
+                        <div class="swiper-slide"><img src="img/logos/observer.jpg" class="img-responsive" alt="" style="max-height: 80px"></div>
+                        <div class="swiper-slide"><img src="img/logos/forbes.png" class="img-responsive" alt="" style="max-height: 80px"></div>
+                        <div class="swiper-slide"><img src="img/logos/black.png" class="img-responsive" alt="" style="max-height: 80px"></div>
+                    </div>
+                </div>
             </div>
-            <div class='row'>
-               <div class='col-sm-4 col-md-4 text-center overlay-text icons'>
-                  <div class='icon-wrapper'>
-                     <i class='fa fa-gavel icon-large'></i>
-                  </div>
-                  <h3>Know Your Rights</h3>
-                  <p>Learn when and how to respond in an encounter.</p>
-               </div>
-               <div class='col-sm-4 col-md-4 text-center overlay-text icons'>
-                  <div class='icon-wrapper'>
-                     <i class='fa fa-file-video-o icon-large'></i>
-                  </div>
-                  <h3>Record & Text</h3>
-                  <p>Video record encounters & send texts to contacts.</p>
-               </div>
-               <div class='col-sm-4 col-md-4 text-center overlay-text icons'>
-                  <div class='icon-wrapper'>
-                     <i class='fa fa-search icon-large'></i>
-                  </div>
-                  <h3>Find An Attorney</h3>
-                  <p>Find and speak to a licensed attorney in real time.</p>
-               </div>
+        </section><!-- ./Trending design -->
+        <section id="features" class="section features">
+            <div class="container text-center">
+                <div class="section-heading text-center">
+                    <h2 class="bold">How It Works</h2>
+                    <!-- <p class="lead text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, nulla, voluptates. Architecto eum minima necessitatibus quo reiciendis! Aliquam culpa doloremque eaque esse illo, nemo nesciunt nobis quia sapiente tenetur veniam.</p> -->
+                </div>
 
+                <div class="row gap-y text-center text-md-left">
+                    <div class="col-md-4 py-4 rounded shadow-hover text-center"><i class="fas fa-gavel text-center" style="font-size: 50px; color: #374598;  text-align: center;" class="mb-5 stroke-primary"></i>
+                        <h5 class="bold text-center" style="font-size: 24px;">Know Your Rights</h5>
+                        <p class="text-center" style="font-size: 20px;">Learn when and how to respond in any encounters.</p>
+                    </div>
+                    <div class="col-md-4 py-4 rounded shadow-hover text-center"><i class="fas fa-video" style="font-size: 45px; color: #374598; text-align: center;"  class="mb-5 stroke-primary"></i>
+                        <h5 class="bold text-center" style="font-size: 24px;">Record and Text</h5>
+                        <p class="text-center" style="font-size: 20px;">Video record encounters & send texts to contacts.</p>
+                    </div>
+                    <div class="col-md-4 py-4 rounded shadow-hover text-center"><i class="fas fa-search" style="font-size: 45px; color: #374598;  text-align: center;" class="mb-5 stroke-primary"></i>
+                        <h5 class="bold text-center" style="font-size: 24px;">Find an Attorney</h5>
+                        <p class="text-center" style="font-size: 20px;">Find and speak with attorneys in real time.</p>
+                    </div>
+                </div>
             </div>
-            <!-- /.row -->
-         </div>
-         <div class='overlay-bg light'></div>
-      </section>
-      <!-- Testimonials -->
-      <section class='dark' id='testimonials'>
-         <div class='page-header text-center'>
-            <h2>Reviews & Testimonials</h2>
-         </div>
-         <div class='container'>
-            <div class='row'>
-               <div class='col-md-offset-2 col-md-8'>
-                  <div class='carousel slide' data-ride='carousel' id='quote-carousel'>
-                     <!-- Bottom Carousel Indicators -->
-                     <ol class='carousel-indicators'>
-                        <li class='active' data-slide-to='0' data-target='#quote-carousel'></li>
-                        <li data-slide-to='1' data-target='#quote-carousel'></li>
-                        <li data-slide-to='2' data-target='#quote-carousel'></li>
-                     </ol>
-                     <!-- Carousel Slides / Quotes -->
-                     <div class='carousel-inner'>
-                        <!-- Quote 1 -->
-                        <div class='item active'>
-                           <blockquote>
-                             <div class='row'>
-                                <div class='col-sm-3 text-center'>
-                                   <img class="" src="img/fivestars.png"/>
-                                </div>
-                                <div class='col-sm-9'>
-                                   <p>"Thanks so much, we travel to the US often and this will certainly make us feel better!"</p>
-                                   <small>
-                                      <!-- New Wave Tattoo - -->
-                                   </small>
-                                   <!-- %a{href: "http://www.workingnomads.co", target: "_blank"} @workingnomads -->
-                                </div>
-                             </div>
-                           </blockquote>
+        </section><!-- ./Tons of benefits -->
+        <section id="testimonials" class="section bg-light top-left">
+            <div class="container pt-8">
+                <div class="section-heading text-center w-75 mx-auto">
+                    <h2 class="text-contrast bold">Testimonials</h2>
+                    <!-- <p class="lead text-contrast">Learn how Legal Equalizer is helping save lifes.</p> -->
+                </div>
+                <div class="row gap-y">
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <div class="card shadow-box shadow-hover border-0"><a href="https://youtu.be/xmWalco_gUo" class="modal-popup mfp-iframe overlay gradient gradient-blue-purple alpha-3 p-6 image-background cover" style="background-image: url('img/testimonial1.png');" data-effect="mfp-fade" data-type="iframe">
+                                <div class="content text-center"><i data-feather="play" width="48" height="48" stroke-width="1" class="stroke-contrast"></i></div>
+                            </a>
+                            <div class="card-body">
+                                <h4 class="card-title regular">Janice - Atlanta, Ga</h4>
+                                <p class="card-text text-secondary">Learn how Janice used the app as rideshare driver. She explains how it kept her safe and allowed her to make money on the side.</p>
+                            </div>
                         </div>
-                        <!-- Quote 2 -->
-                        <div class='item'>
-                           <blockquote>
-                              <div class='row'>
-                                 <div class='col-sm-3 text-center'>
-                                    <img class="" src="img/fivestars.png"/>
-                                 </div>
-                                 <div class='col-sm-9'>
-                                    <p>"This app will help save lives. Everyone should know their legal rights!"</p>
-                                    <small>
-                                       <!-- New Wave Tattoo - -->
-                                    </small>
-                                    <!-- %a{href: "http://www.workingnomads.co", target: "_blank"} @workingnomads -->
-                                 </div>
-                              </div>
-                           </blockquote>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <div class="card shadow-box shadow-hover border-0"><a href="https://www.youtube.com/watch?v=L-QsZ6jnVZ4" class="modal-popup mfp-iframe overlay gradient gradient-blue-purple alpha-3 p-6 image-background cover" style="background-image: url('img/testimonial2.png');" data-effect="mfp-fade" data-type="iframe">
+                                <div class="content text-center"><i data-feather="play" width="48" height="48" stroke-width="1" class="stroke-contrast"></i></div>
+                            </a>
+                            <div class="card-body">
+                                <h4 class="card-title regular">Trey - Ferguson, Mo</h4>
+                                <p class="card-text text-secondary">Trey a former Divison 1 Football player discusses how Legal Equalizer has helped him out while traveling out of the state.</p>
+                            </div>
                         </div>
-                        <!-- Quote 3 -->
-                        <div class='item'>
-                           <blockquote>
-                              <div class='row'>
-                                 <div class='col-sm-3 text-center'>
-                                    <img class="" src="img/fivestars.png"/>
-                                 </div>
-                                 <div class='col-sm-9'>
-                                    <p>"I absolutely love this app. It makes me feel so much safer while I'm driving!"</p>
-                                    <small>
-                                       <!-- Working Nomads - -->
-                                       <!-- %a{href: "http://www.workingnomads.co", target: "_blank"} @workingnomads -->
-                                    </small>
-                                 </div>
-                              </div>
-                           </blockquote>
-                        </div>
-                     </div>
-                     <!-- Carousel Buttons Next/Prev -->
-                     <a class='left carousel-control visible-md visible-lg' data-slide='prev' href='#quote-carousel'>
-                     <i class='fa fa-chevron-left'></i>
-                     </a>
-                     <a class='right carousel-control visible-md visible-lg' data-slide='next' href='#quote-carousel'>
-                     <i class='fa fa-chevron-right'></i>
-                     </a>
-                  </div>
-               </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </section>
-      <!-- Call to Action -->
-      <section class='cta text-center dark'>
-         <div class='container' id= "cta">
-            <div class='row'>
-               <div class="col-sm-6 col-xs-12">
-                 <a href='https://apps.apple.com/us/app/legal-equalizer/id1255955244'>
-                 <img src='img/ios.png' style="height: 80px;">
-                 </a>
-               </div>
-               <div class="col-sm-6 col-xs-12 android">
-                 <a href='https://play.google.com/store/apps/details?id=com.legalequalizer.legalequalizer&hl=en_US/sign_up'>
-                 <img src='img/android.png' style="height: 80px;"
-                 </a>
-               </div>
-            </div>
-         </div>
-      </section>
-      <div class='trigger-box'>
-         <div class='alert-message'></div>
-      </div>
-      <!-- Footer -->
-      <footer class='footer' id='contact'>
-         <div class='container'>
-            <div class='row'>
-               <div class='col-lg-12 text-center'>
-                  <div class='col-sm-6 col-md-6'>
-                     <div class='footer-logo'>
-                        <h2>
-                           <a href='/'>
-                           <img src='img/legaleqlogo.png'>
-                           </a>
-                        </h2>
-                        <p>
-                           Atlanta, GA<br>(518) 966-2317
-                        </p>
-                        <br>
-                        <p class='muted'>© 2019 Legal Equalizer Inc.</p>
-                        <a href='#'>Terms of Service</a>
-                        <a href='#'>Privacy</a>
-                     </div>
-                  </div>
-                  <div class='col-sm-6 col-md-6 text-center'>
-                     <h3>INFO</h3>
-                     <ul class='list-unstyled'>
-                       <li>
-                          <a class='login' href="mailto:mbyel@legalequalizer.com">Contact Us</a>
-                       </li>
-                     </ul>
-                     <div class='row'>
-                        <a class='icon' href='https://www.facebook.com/LegalEqualizer/' target='_blank'>
-                        <i class='fa fa-facebook'></i>
-                        </a>
-                        <a class='icon' href='https://twitter.com/legaleqapp' target='_blank'>
-                        <i class='fa fa-twitter'></i>
-                        </a>
-                        <a class='icon' href='https://www.instagram.com/legal_equalizer_app/' target='_blank'>
-                        <i class='fa fa-instagram'></i>
-                        </a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </footer>
-      <script src="js/modernizr.custom.js"></script>
-      <script src="js/application.js"></script>
-      <script src="js/classie.js"></script>
-      <script src="js/cbpAnimatedHeader.min.js"></script>
-      <script src="js/typer.js"></script>
-   </body>
+        </section><!-- ./Brands -->
+        <footer class="site-footer section text-center block bg-contrast">
+            <hr class="mt-5">
+            <nav class="nav social-icons justify-content-center mt-4" style="font-size: 22px;"> <a href="https://www.facebook.com/LegalEqualizer/" class="mr-3 font-regular text-secondary"><i class="fab fa-facebook" style="font-size: 30px;"></i></a> <a href="https://www.instagram.com/legal_equalizer_app/" class="mr-3 font-regular text-secondary"><i class="fab fa-instagram" style="font-size: 30px;"></i></a><a href="https://twitter.com/legaleqapp" class="mr-3 font-regular text-secondary"><i class="fab fa-twitter" style="font-size: 30px;"></i></a></nav>
+            <p class="small copyright text-secondary">© 2021 Legal Equalizer</p>
+        </footer>
+    </main><!-- themeforest:js -->
+    <script src="js/01.cookie-consent-util.js"></script>
+    <script src="js/02.1.cookie-consent-themes.js"></script>
+    <script src="js/02.2.cookie-consent-custom-css.js"></script>
+    <script src="js/02.3.cookie-consent-informational.js"></script>
+    <script src="js/02.4.cookie-consent-opt-out.js"></script>
+    <script src="js/02.5.cookie-consent-opt-in.js"></script>
+    <script src="js/02.6.cookie-consent-location.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/counterup2.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/noframework.waypoints.js"></script>
+    <script src="js/odometer.min.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="js/simplebar.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/jquery.smartWizard.js"></script>
+    <script src="js/plugins/jquery.animatebar.js"></script>
+    <script src="js/feather.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/cookieconsent.min.js"></script>
+    <script src="js/common-script.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/stripe-bubbles.js"></script>
+    <script src="js/stripe-menu.js"></script>
+    <script src="js/cc.js"></script>
+    <script src="js/pricing.js"></script>
+    <script src="js/shop.js"></script>
+    <script src="js/svg.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/03.demo.js"></script><!-- endinject -->
+</body>
+
 </html>
